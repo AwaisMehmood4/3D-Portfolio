@@ -30,6 +30,16 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import airtable from "./tech/airtable.png";
+import finsweet from "./tech/finsweet.png";
+import memberstack from "./tech/memberstack.png";
+import relume from "./tech/relume.png";
+import webflow from "./tech/webflow.webp";
+import wordpress from "./tech/wordpress.png";
+import Zapier from "./tech/zapier.png";
+
+
+
 export {
   logo,
   backend,
@@ -59,4 +69,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  airtable,
+  finsweet,
+  memberstack,
+  relume,
+  webflow,
+  wordpress,
+  Zapier,
 };

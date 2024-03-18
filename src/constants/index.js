@@ -23,8 +23,14 @@ import {
     jobit,
     tripguide,
     threejs,
+    finsweet,
+    memberstack,
+    relume,
+    webflow,
+    wordpress,
+    Zapier
   } from "../assets";
-  
+
   export const navLinks = [
     {
       id: "about",
@@ -42,21 +48,21 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Webflow Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Wordpress Developer",
       icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    }
+    // {
+    //   title: "Content Creator",
+    //   icon: creator,
+    // },
   ];
   
   const technologies = [
@@ -93,8 +99,8 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Webflow",
+      icon: webflow,
     },
     {
       name: "Three JS",
@@ -109,62 +115,73 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "memberstack",
+      icon: memberstack,
     },
+
+    {
+      name: "finsweet",
+      icon: finsweet,
+    },
+
+    {
+      name: "relume",
+      icon: relume,
+    },
+    {
+      name: "wordpress",
+      icon: wordpress,
+    },
+    {
+      name: "Zapier",
+      icon: Zapier,
+    }
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Webflow Developer",
+      company_name: "Youpal",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Apr 2023 - Dec 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed and developed responsive and visually engaging websites using Webflow, ensuring a seamless user experience.",
+        "Collaborated closely with cross-functional teams to translate design concepts into functional websites, meeting project deadlines consistently.",
+        "Implemented custom code and integrations when necessary to enhance website functionality and optimize performance.",
+        "Maintained and updated existing websites, ensuring they remained current and aligned with the company's branding and objectives.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Frontend Developer",
+      company_name: "Venture Reoublic",
+      icon: starbucks,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Feb 2023 - Jan 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Working as a Webflow expert in creating and maintaining websites.",
+        "Involved in developing and designing custom, responsive layouts and develop complex interactions and animations.",
+        "Integrated third party libraries and payment gateways.",
+        "Collaborated with the marketing department to align web design and functionality with marketing strategies.",
+        "Designed custom landing pages to support marketing campaigns, ensuring a seamless user experience.",
+        "Integrated marketing tools and analytics platforms for data-driven marketing decisions.",
+        "• Contributed to SEO optimization efforts, resulting in improved organic traffic.",
+        "Working on wordpress, figma, and nextjs for company projects."
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Frontend Developer",
+      company_name: "Onebyte",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Nov 2021 - Feb 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked closely with Project Managers, Team Leads and clients on change request functions as a frontend developer.",
+        "Developed and maintained web application in react.",
+        "Design and developed custom and responsive web applications in Web-flow and WordPress.",
+        "Integrated third party libraries / tools",
+        "Worked on revamping and maintaining websites.",
+        "Worked in a multidisciplinary development team."
       ],
     },
   ];
