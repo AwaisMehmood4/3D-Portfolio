@@ -45,6 +45,7 @@ import onebyteImg from "./onebyte.png";
 import redbuffer from "./redbuffer.png";
 import ventureimg from "./venturerepublic.png";
 import pak from "./pak.png";
+import youpalImg from "./youpalImg.png";
 
 
 
@@ -91,6 +92,7 @@ export {
   onebyteImg,
   pak,
   ventureimg,
-  redbuffer
+  redbuffer,
+  youpalImg
 
 };

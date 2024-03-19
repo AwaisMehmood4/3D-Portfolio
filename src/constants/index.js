@@ -36,7 +36,8 @@ import {
     onebyteImg,
     pak,
     ventureimg,
-    redbuffer
+    redbuffer,
+    youpalImg
   } from "../assets";
 
   export const navLinks = [
@@ -186,10 +187,10 @@ import {
     {
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Awais does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://media.licdn.com/dms/image/D5603AQGA5l7lXbBudw/profile-displayphoto-shrink_200_200/0/1702756036910?e=2147483647&v=beta&t=HkXEyKmRSlbhDVeoNsPUW0leDFuristYpUI50lW1f5o",
+      name: "Khizar Hamid",
+      designation: "CEO",
+      company: "Venture Republic",
+      image: "https://assets-global.website-files.com/63372bf31d184868303f213e/63387076823f99b2eeea9ad2_Khizar%20Hamid.svg",
     },
     {
       testimonial:
@@ -283,7 +284,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: youpalImg,
       source_code_link: "https://youpal.webflow.io/",
     },
     {
