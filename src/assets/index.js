@@ -37,7 +37,9 @@ import relume from "./tech/relume.png";
 import webflow from "./tech/webflow.webp";
 import wordpress from "./tech/wordpress.png";
 import Zapier from "./tech/zapier.png";
-
+import onebyte from "./company/onebyte.jpeg";
+import venture from "./company/venture-republic.jpeg";
+import youpal from "./company/youpal.jpeg";
 
 
 export {
@@ -76,4 +78,7 @@ export {
   webflow,
   wordpress,
   Zapier,
+  onebyte,
+  venture,
+  youpal
 };

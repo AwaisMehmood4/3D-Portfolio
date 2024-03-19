@@ -28,7 +28,10 @@ import {
     relume,
     webflow,
     wordpress,
-    Zapier
+    Zapier,
+    onebyte,
+    youpal,
+    venture
   } from "../assets";
 
   export const navLinks = [
@@ -79,24 +82,12 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
     },
     {
       name: "Webflow",
@@ -123,26 +114,18 @@ import {
       name: "finsweet",
       icon: finsweet,
     },
-
-    {
-      name: "relume",
-      icon: relume,
-    },
     {
       name: "wordpress",
       icon: wordpress,
     },
-    {
-      name: "Zapier",
-      icon: Zapier,
-    }
+
   ];
   
   const experiences = [
     {
       title: "Webflow Developer",
       company_name: "Youpal",
-      icon: tesla,
+      icon: youpal,
       iconBg: "#E6DEDD",
       date: "Apr 2023 - Dec 2024",
       points: [
@@ -155,7 +138,7 @@ import {
     {
       title: "Frontend Developer",
       company_name: "Venture Reoublic",
-      icon: starbucks,
+      icon: venture,
       iconBg: "#383E56",
       date: "Feb 2023 - Jan 2024",
       points: [
@@ -165,14 +148,14 @@ import {
         "Collaborated with the marketing department to align web design and functionality with marketing strategies.",
         "Designed custom landing pages to support marketing campaigns, ensuring a seamless user experience.",
         "Integrated marketing tools and analytics platforms for data-driven marketing decisions.",
-        "• Contributed to SEO optimization efforts, resulting in improved organic traffic.",
+        "Contributed to SEO optimization efforts, resulting in improved organic traffic.",
         "Working on wordpress, figma, and nextjs for company projects."
       ],
     },
     {
       title: "Frontend Developer",
       company_name: "Onebyte",
-      icon: meta,
+      icon: onebyte,
       iconBg: "#E6DEDD",
       date: "Nov 2021 - Feb 2023",
       points: [
@@ -189,84 +172,126 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I thought it was impossible to make a website as beautiful as our product, but Awais proved me wrong.",
+      name: "Aly Fahad",
+      designation: "Founder",
+      company: "Paklaunch",
+      image: "https://media.licdn.com/dms/image/D5603AQGA5l7lXbBudw/profile-displayphoto-shrink_200_200/0/1702756036910?e=2147483647&v=beta&t=HkXEyKmRSlbhDVeoNsPUW0leDFuristYpUI50lW1f5o",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I've never met a web developer who truly cares about their clients' success like Awais does.",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      image: "https://media.licdn.com/dms/image/D5603AQGA5l7lXbBudw/profile-displayphoto-shrink_200_200/0/1702756036910?e=2147483647&v=beta&t=HkXEyKmRSlbhDVeoNsPUW0leDFuristYpUI50lW1f5o",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Awais has been great as a Web flow developer in helping us launch our new website. His work was great and has been a good team player. Great availability and communications, as well as always trying his best to deliver under high pressure. I would highly recommend Awais!",
+      name: "Taimur KHan",
+      designation: "Product Owner",
+      company: "Youpal",
+      image: "https://media.licdn.com/dms/image/D4D03AQFcHpdpdHsvsg/profile-displayphoto-shrink_800_800/0/1667033927153?e=2147483647&v=beta&t=xuJZqhmB5eA7MbA2u4FlOzmZeBDTGshpu723SJA9TXE",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Paklaunch 23",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Pak Launch is an unconference event aimed at promoting entrepreneurship and innovation in Pakistan. The event brings together startups, investors, and other stakeholders to connect and collaborate with each other, with the goal of accelerating the growth of the Pakistani startup ecosystem.",
       tags: [
         {
-          name: "react",
+          name: "Webflow",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Particle Js",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Client First",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://paklaunch-unconference2023.webflow.io/",
     },
     {
-      name: "Job IT",
+      name: "Paklaunch 23.2",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Pak Launch is an unconference event aimed at promoting entrepreneurship and innovation in Pakistan. The event brings together startups, investors, and other stakeholders to connect and collaborate with each other, with the goal of accelerating the growth of the Pakistani startup ecosystem.",
       tags: [
         {
-          name: "react",
+          name: "Webflow",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Particle Js",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Client First",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://unconference23.2.paklaunch.com/",
+    },
+    {
+      name: "Paklaunch 24",
+      description:
+        "Pak Launch is an unconference event aimed at promoting entrepreneurship and innovation in Pakistan. The event brings together startups, investors, and other stakeholders to connect and collaborate with each other, with the goal of accelerating the growth of the Pakistani startup ecosystem.",
+      tags: [
+        {
+          name: "Webflow",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Particle Js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Client First",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "http://unconference24.paklaunch.com/",
+    },
+    {
+      name: "Youpal Group",
+      description:
+        "Youpal Group, founded in 2016, is a pioneering force in global innovation and development, spanning 3 continents and 8 countries. Focused on virtualization and technological advancement across diverse industries, Youpal is dedicated to being a trusted partner in building and enhancing digital infrastructure.",
+      tags: [
+        {
+          name: "Webflow",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Finsweet",
+          color: "green-text-gradient",
+        },
+        {
+          name: "GSAP",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://youpal.webflow.io/",
     },
     {
-      name: "Trip Guide",
+      name: "Augment Scale",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Augment Scale is a consulting and development company that helps businesses to grow and optimize their operations through the use of technology solutions.",
       tags: [
         {
-          name: "nextjs",
+          name: "Webflow",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Finsweet",
           color: "green-text-gradient",
         },
         {
@@ -275,7 +300,70 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://www.augmentscale.com/",
+    },
+    {
+      name: "Venture Republic",
+      description:
+        "Venture Republic is a company that provides a range of SaaS products and services aimed at helping businesses and organizations to grow and succeed online.",
+      tags: [
+        {
+          name: "Webflow",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Finsweet",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://venturerepublic.net/",
+    },
+    {
+      name: "Onebyte",
+      description:
+        "OneByte is an IT consulting and software development company that provides a range of services to help businesses develop and implement technology solutions. They offer services such as custom software development, mobile app development, web development, cloud solutions, and IT consulting.",
+      tags: [
+        {
+          name: "Wordpress",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://onebytellc.com/",
+    },
+    {
+      name: "Redbuffer",
+      description:
+        "Redbuffer is an artificial intelligence (AI) company that provides businesses with AI-based solutions to help them optimize their operations and decision-making processes. They offer AI-driven products and services in areas such as customer service, finance, and data analytics.",
+      tags: [
+        {
+          name: "Wordpress",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://redbuffer.ai/",
     },
   ];
   
