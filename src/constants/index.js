@@ -31,7 +31,12 @@ import {
     Zapier,
     onebyte,
     youpal,
-    venture
+    venture,
+    augment,
+    onebyteImg,
+    pak,
+    ventureimg,
+    redbuffer
   } from "../assets";
 
   export const navLinks = [
@@ -215,7 +220,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: pak,
       source_code_link: "https://paklaunch-unconference2023.webflow.io/",
     },
     {
@@ -236,7 +241,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: pak,
       source_code_link: "https://unconference23.2.paklaunch.com/",
     },
     {
@@ -257,7 +262,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: pak,
       source_code_link: "http://unconference24.paklaunch.com/",
     },
     {
@@ -299,7 +304,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: augment,
       source_code_link: "https://www.augmentscale.com/",
     },
     {
@@ -320,7 +325,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: ventureimg,
       source_code_link: "https://venturerepublic.net/",
     },
     {
@@ -341,7 +346,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: onebyteImg,
       source_code_link: "https://onebytellc.com/",
     },
     {
@@ -362,7 +367,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: redbuffer,
       source_code_link: "https://redbuffer.ai/",
     },
   ];

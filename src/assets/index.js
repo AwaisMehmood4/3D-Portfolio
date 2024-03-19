@@ -40,6 +40,12 @@ import Zapier from "./tech/zapier.png";
 import onebyte from "./company/onebyte.jpeg";
 import venture from "./company/venture-republic.jpeg";
 import youpal from "./company/youpal.jpeg";
+import augment from "./augment.png";
+import onebyteImg from "./onebyte.png";
+import redbuffer from "./redbuffer.png";
+import ventureimg from "./venturerepublic.png";
+import pak from "./pak.png";
+
 
 
 export {
@@ -80,5 +86,11 @@ export {
   Zapier,
   onebyte,
   venture,
-  youpal
+  youpal,
+  augment,
+  onebyteImg,
+  pak,
+  ventureimg,
+  redbuffer
+
 };
