@@ -48,10 +48,10 @@ import pak from "./pak.png";
 import youpalImg from "./youpalImg.png";
 import approcket from "./approcket.png";
 import oxygean from "./oxygean.png";
+import pakone from "./riyadh.png";
+import paktwo from "./paksimple.png";
+import pakthree from "./dunai.png";
 import alyfahad from "./alyfahad.png";
-import pak1 from "/Users/awaismehmood/Desktop/3D-Portfolio-1/src/assets/pak1.jpg";
-import pak2 from "/Users/awaismehmood/Desktop/3D-Portfolio-1/src/assets/pak2.jpg";
-import pak3 from "/Users/awaismehmood/Desktop/3D-Portfolio-1/src/assets/pak3.jpg";
 
 
 
@@ -104,8 +104,8 @@ export {
   oxygean,
   approcket,
   alyfahad,
-  pak1,
-  pak2,
-  pak3
+  pakone,
+  paktwo,
+  pakthree
 
 };
