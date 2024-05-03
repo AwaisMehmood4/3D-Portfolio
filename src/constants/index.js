@@ -41,9 +41,9 @@ import {
     approcket,
     oxygean,
     alyfahad,
-    pak1,
-    pak2,
-    pak3
+    pakone,
+    paktwo,
+    pakthree
   } from "../assets";
 
   export const navLinks = [
@@ -227,7 +227,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: pak3,
+      image: pakthree,
       source_code_link: "https://paklaunch-unconference2023.webflow.io/",
     },
     {
@@ -248,7 +248,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: pak2,
+      image: paktwo,
       source_code_link: "https://unconference23.2.paklaunch.com/",
     },
     {
@@ -269,7 +269,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: pak1,
+      image: pakone,
       source_code_link: "http://unconference24.paklaunch.com/",
     },
     {
