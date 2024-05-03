@@ -37,7 +37,13 @@ import {
     pak,
     ventureimg,
     redbuffer,
-    youpalImg
+    youpalImg,
+    approcket,
+    oxygean,
+    alyfahad,
+    pak1,
+    pak2,
+    pak3
   } from "../assets";
 
   export const navLinks = [
@@ -182,7 +188,7 @@ import {
       name: "Aly Fahad",
       designation: "Founder",
       company: "Paklaunch",
-      image: "https://media.licdn.com/dms/image/D5603AQGA5l7lXbBudw/profile-displayphoto-shrink_200_200/0/1702756036910?e=2147483647&v=beta&t=HkXEyKmRSlbhDVeoNsPUW0leDFuristYpUI50lW1f5o",
+      image: alyfahad,
     },
     {
       testimonial:
@@ -221,7 +227,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: pak,
+      image: pak3,
       source_code_link: "https://paklaunch-unconference2023.webflow.io/",
     },
     {
@@ -242,7 +248,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: pak,
+      image: pak2,
       source_code_link: "https://unconference23.2.paklaunch.com/",
     },
     {
@@ -263,7 +269,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: pak,
+      image: pak1,
       source_code_link: "http://unconference24.paklaunch.com/",
     },
     {
@@ -290,7 +296,7 @@ import {
     {
       name: "Oxygean",
       description:
-        "Direct Real Time Digital Engagement Charting the Course for the Next Digital Era",
+        "Direct Real Time Digital Engagement Charting the Course for the Next Digital Era. In the OX ecosystem, everyone wins—without exception. Every user earns, every commercial entity finds success, and the environment benefits significantly. This isn't just a platform; it's a revolution. It's digital gold, inclusive of all, breaking new ground, and shaping the future of digital interaction",
       tags: [
         {
           name: "Webflow",
@@ -301,13 +307,13 @@ import {
           color: "green-text-gradient",
         }
       ],
-      image: "https://ibb.co/4pJfYZ1",
+      image: oxygean,
       source_code_link: "https://www.oxygean.com/",
     },
     {
       name: "Approcket",
       description:
-        "AppRocket was founded in 2017 with a single mission to give the entrepreneurs and thought leaders we work with the fastest path to creating outsized impact.",
+        "AppRocket is a technology consulting firm that helps ambitious companies build & scale. AppRocket was founded in 2017 with a single mission to give the entrepreneurs and thought leaders we work with the fastest path to creating outsized impact.",
       tags: [
         {
           name: "Webflow",
@@ -322,7 +328,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "https://ibb.co/JmsBmyw",
+      image: approcket,
       source_code_link: "https://www.approcket.com/",
     },
     {

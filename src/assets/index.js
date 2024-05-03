@@ -46,6 +46,13 @@ import redbuffer from "./redbuffer.png";
 import ventureimg from "./venturerepublic.png";
 import pak from "./pak.png";
 import youpalImg from "./youpalImg.png";
+import approcket from "./approcket.png";
+import oxygean from "./oxygean.png";
+import alyfahad from "./alyfahad.png";
+import pak1 from "/Users/awaismehmood/Desktop/3D-Portfolio-1/src/assets/pak1.jpg";
+import pak2 from "/Users/awaismehmood/Desktop/3D-Portfolio-1/src/assets/pak2.jpg";
+import pak3 from "/Users/awaismehmood/Desktop/3D-Portfolio-1/src/assets/pak3.jpg";
+
 
 
 
@@ -93,6 +100,12 @@ export {
   pak,
   ventureimg,
   redbuffer,
-  youpalImg
+  youpalImg,
+  oxygean,
+  approcket,
+  alyfahad,
+  pak1,
+  pak2,
+  pak3
 
 };
