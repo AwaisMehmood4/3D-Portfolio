@@ -52,6 +52,7 @@ import pakone from "./riyadh.png";
 import paktwo from "./paksimple.png";
 import pakthree from "./dunai.png";
 import alyfahad from "./alyfahad.png";
+import unlayer from "./unlayer.png";
 
 
 
@@ -106,6 +107,6 @@ export {
   alyfahad,
   pakone,
   paktwo,
-  pakthree
-
+  pakthree,
+  unlayer
 };
