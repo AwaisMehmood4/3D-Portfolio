@@ -53,6 +53,11 @@ import paktwo from "./paksimple.png";
 import pakthree from "./dunai.png";
 import alyfahad from "./alyfahad.png";
 import unlayer from "./unlayer.png";
+import salah from "./salah.png";
+import tahir from "./tahir.jpg"
+import taimur from "./taimur.jpg"
+import junaid from "./junaid.jpeg"
+
 
 
 
@@ -108,5 +113,9 @@ export {
   pakone,
   paktwo,
   pakthree,
-  unlayer
+  unlayer,
+  salah,
+  tahir,
+  taimur,
+  junaid
 };

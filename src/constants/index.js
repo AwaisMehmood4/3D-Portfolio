@@ -44,7 +44,11 @@ import {
   pakone,
   paktwo,
   pakthree,
-  unlayer
+  unlayer,
+  salah,
+  tahir,
+  taimur,
+  junaid
 } from "../assets";
 
 export const navLinks = [
@@ -142,10 +146,11 @@ const experiences = [
     iconBg: "#383E56",
     date: "Feb 2024 - Present",
     points: [
-      "Designed and developed responsive and visually engaging websites using Webflow, ensuring a seamless user experience.",
-      "Collaborated closely with cross-functional teams to translate design concepts into functional websites, meeting project deadlines consistently.",
-      "Implemented custom code and integrations when necessary to enhance website functionality and optimize performance.",
-      "Maintained and updated existing websites, ensuring they remained current and aligned with the company's branding and objectives.",
+      "Develop and maintain new and existing pages built in Webflow.",
+      "Collaborate with marketing and SEO teams to update site content and improve site health.",
+      "Post blogs and manage content updates on the website.",
+      "Optimize the website for speed, usability, and user experience.",
+      "Implement SEO best practices to enhance the site’s visibility.",
     ],
   },
   {
@@ -214,10 +219,18 @@ const testimonials = [
   {
     testimonial:
       "Awais has been great as a Web flow developer in helping us launch our new website. His work was great and has been a good team player. Great availability and communications, as well as always trying his best to deliver under high pressure. I would highly recommend Awais!",
-    name: "Taimur KHan",
+    name: "Taimur Khan",
     designation: "Product Owner",
     company: "Youpal",
-    image: "https://media.licdn.com/dms/image/D4D03AQFcHpdpdHsvsg/profile-displayphoto-shrink_800_800/0/1667033927153?e=2147483647&v=beta&t=xuJZqhmB5eA7MbA2u4FlOzmZeBDTGshpu723SJA9TXE",
+    image: taimur,
+  },
+  {
+    testimonial:
+      "I've had the pleasure of working with Awais, and I can confidently say that he is a top-notch front-end developer whose work stands out in both design and functionality. His proficiency in Webflow and custom development consistently results in visually stunning, high-performing websites. Awais's deep understanding of JavaScript libraries like ReactJS, along with his keen eye for design using Figma, ensures that every project he touches is innovative, user-centric, and executed to perfection.",
+    name: "Junaid Nizami",
+    designation: "Design Head",
+    company: "Unlayer",
+    image: junaid,
   },
 ];
 
@@ -243,27 +256,27 @@ const projects = [
     image: pakthree,
     source_code_link: "https://paklaunch-unconference2023.webflow.io/",
   },
-  {
-    name: "Paklaunch 23.2",
-    description:
-      "Pak Launch is an unconference event aimed at promoting entrepreneurship and innovation in Pakistan. The event brings together startups, investors, and other stakeholders to connect and collaborate with each other, with the goal of accelerating the growth of the Pakistani startup ecosystem.",
-    tags: [
-      {
-        name: "Webflow",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Particle Js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Client First",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: paktwo,
-    source_code_link: "https://unconference23.2.paklaunch.com/",
-  },
+  // {
+  //   name: "Paklaunch 23.2",
+  //   description:
+  //     "Pak Launch is an unconference event aimed at promoting entrepreneurship and innovation in Pakistan. The event brings together startups, investors, and other stakeholders to connect and collaborate with each other, with the goal of accelerating the growth of the Pakistani startup ecosystem.",
+  //   tags: [
+  //     {
+  //       name: "Webflow",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Particle Js",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Client First",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: paktwo,
+  //   source_code_link: "https://unconference23.2.paklaunch.com/",
+  // },
   {
     name: "Paklaunch 24",
     description:
@@ -322,6 +335,23 @@ const projects = [
     ],
     image: oxygean,
     source_code_link: "https://www.oxygean.com/",
+  },
+  {
+    name: "Tahir Abbas",
+    description:
+      "Its a portfolio website. Tahir Abbas has emerged as a prominent figure in the music industry of Pakistan reviving the rich culture through his evocative lyrics, soulful voice, and captivating melodies.",
+    tags: [
+      {
+        name: "Webflow",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Finsweet",
+        color: "green-text-gradient",
+      }
+    ],
+    image: tahir,
+    source_code_link: "https://www.tahirabbasmusic.com/",
   },
   {
     name: "Approcket",
@@ -427,6 +457,27 @@ const projects = [
     ],
     image: redbuffer,
     source_code_link: "https://redbuffer.ai/",
+  },
+  {
+    name: "Salah",
+    description:
+      "Salah is the artist name for Ahmad Salahuddin. Salah is a Pakistani-born bilingual artist who writes and sings in English and Urdu. Salah is based in Washington, D.C metropolitan area where he plays regularly at various music venues around the larger metropolitan area.Salah’s primary instrument is the voice and is a skilled rhythm guitar player.",
+    tags: [
+      {
+        name: "Wordpress",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: salah,
+    source_code_link: "https://salahmusicofficial.com/",
   },
 ];
 
